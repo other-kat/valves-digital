@@ -305,7 +305,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 326.0, 409.0, 640.0, 480.0 ],
+						"rect" : [ 407.0, 409.0, 351.0, 241.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -333,7 +333,69 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"boxes" : [  ],
+						"visible" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 177.102578520774841, 21.166678249835968, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 75.82050496339798, 27.089765779731735, 59.0, 20.0 ],
+									"text" : "kat - :)",
+									"textcolor" : [ 0.705882352941177, 0.870588235294118, 0.517647058823529, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 12.102578520774841, 52.666678249835968, 333.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 90.82050496339798, 42.089765779731735, 61.0, 60.0 ],
+									"text" : "every channel is off by default!",
+									"textcolor" : [ 0.705882352941177, 0.870588235294118, 0.517647058823529, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"linecount" : 8,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 12.102578520774841, 77.666678249835968, 330.0, 114.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 46,
+									"presentation_rect" : [ 75.82050496339798, 27.089765779731735, 59.0, 623.0 ],
+									"text" : "1 - turn on your microphone\n2 - drag and drop your sample\n3 - turn on the sample (you should see a signal)\n4 - turn up the drive\n5 - turn up input/ test sine wave (make sure to give it a pitch) up the distortion if desired)\n6 - turn the signal to effect on and turn on your signal input.\n7 - turn on the master and you should now have a stutter!",
+									"textcolor" : [ 0.705882352941177, 0.870588235294118, 0.517647058823529, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-93",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 12.102578520774841, 14.666678249835968, 150.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 6,
+									"presentation_rect" : [ 60.82050496339798, 12.089765779731735, 57.820514440536499, 87.0 ],
+									"text" : "hello! - welcome to my little experiement!",
+									"textcolor" : [ 0.705882352941177, 0.870588235294118, 0.517647058823529, 1.0 ]
+								}
+
+							}
+ ],
 						"lines" : [  ],
 						"bgcolor" : [ 0.231372549019608, 0.211764705882353, 0.086274509803922, 1.0 ]
 					}
